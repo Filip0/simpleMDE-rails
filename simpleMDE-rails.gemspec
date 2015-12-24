@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
     raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
   end
 
-  spec.files         = Dir["{lib,vendor}/**/*"] + ["MIT-LICENSE", "README.md"]
+  spec.files         = Dir["{lib,vendor}/**/*"] + ["README.md"]
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.9"
