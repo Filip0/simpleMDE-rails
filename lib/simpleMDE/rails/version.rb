@@ -1,5 +1,5 @@
 module SimpleMDE
   module Rails
-    VERSION = "1.9.0.1"
+    VERSION = "0.0.1"
   end
 end
